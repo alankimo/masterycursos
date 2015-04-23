@@ -1,0 +1,26 @@
+/*!
+Theme Name: 
+Theme URI: ---
+Description: 
+Author: Dymenxion
+Version: 1.0
+*/
+
+@import 'bootstrap/css/bootstrap.min.css'
+@import url 'http://fonts.googleapis.com/css?family=Raleway:500,600,700)';
+
+/* Mobile Firts */
+@media screen and (max-width:767px)
+	@import 'mobile.styl';
+
+/* Tablets: Portrait */
+@media screen and (min-width: 768px) and (max-width:991px)
+	@import 'tabletpor.styl'
+
+/* Tablets: Landscape */
+@media screen and (min-width:992px) and (max-width:1199px)
+	@import 'tabletlan.styl';
+
+/* Desktops */
+@media screen and (min-width:1200px)
+	@import 'desktop.styl';
