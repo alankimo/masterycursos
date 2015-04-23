@@ -1,0 +1,356 @@
+@import 'vars.styl'
+/*--------------------------------------------------------------------------------------------------- Generales*/
+body
+	font-family raleway
+	:hover
+		text-decoration none
+.info
+	a
+		padding 4px 22px
+		background-color amarillo
+		border-radius(10px)
+		display inline-block
+		border-bottom 3px solid naranja
+		color #000
+		transition(.2s)
+	
+		&:hover
+			text-decoration none
+			background-color naranja
+.infolarge
+	a
+		padding 4px 20px
+		background-color amarillo
+		border-radius(10px)
+		display inline-block
+		border-bottom 3px solid naranja
+		color #000
+		transition(.2s)
+		&:hover
+			text-decoration none
+			background-color naranja
+	
+/*--------------------------------------------------------------------------------------------------- Header*/
+header
+	width 100%
+	box-shadow(0 3px 50px 2px rgba(0,0,0,.8))
+	z-index 1
+	position relative
+	.logo
+		width 225px
+		margin 0 auto
+		img
+			width 100%
+	
+	nav
+		ul
+			margin-top 9px
+			width 100%
+			li
+				list-style none
+				font-size 1.2em
+				padding 0 8px
+				a
+					color #000
+					transition(.1s)
+					&:hover
+						text-decoration none
+						color naranja
+		
+	.iconos
+		width 69%
+		margin 0 auto
+		padding-bottom 10px
+		a
+			margin-left 5px
+			
+			
+.bull01
+	background-image url(assets/b-01.png)
+	background-repeat no-repeat
+	background-position 0 9.5px
+.bull02
+	background-image url(assets/b-02.png)
+	background-repeat no-repeat
+	background-position 0 9.5px
+.bull03
+	background-image url(assets/b-03.png)
+	background-repeat no-repeat
+	background-position 0 9.5px
+.bull04
+	background-image url(assets/b-04.png)
+	background-repeat no-repeat
+	background-position 0 9.5px
+.bull05
+	background-image url(assets/b-05.png)
+	background-repeat no-repeat
+	background-position 0 9.5px
+.bull06
+	background-image url(assets/b-06.png)
+	background-repeat no-repeat
+	background-position 0 9.5px
+.bull07
+	background-image url(assets/b-07.png)
+	background-repeat no-repeat
+	background-position 0 9.5px
+/*--------------------------------------------------------------------------------------------------- Wrap*/
+#wrap
+	width 100%
+	background-color morado
+	height 94px
+	background-image url(assets/bg-slider.png)
+	background-repeat no-repeat
+	background-position 50% 0
+	
+.slider
+	width 100%
+	margin 0 auto
+	background-position 0 1.5px
+/*--------------------------------------------------------------------------------------------------- formacion*/
+#formacion
+	background-color gris
+	.titleform
+		width 100%
+		margin 0 auto
+		padding 18px 0
+		h2
+			font-weight 700
+			color morado
+			text-align center
+			font-size 1.5em
+	.col3
+		width 100%
+		background-color #fff
+		padding-bottom 26px
+		.imagen
+			img
+				border-bottom 5px solid morado
+				width 100%
+				margin 0 auto
+		.description
+			text-align center
+			width 80%
+			margin 25px auto
+			font-size .8em
+			a
+				color morado
+		.info
+			a
+				margin-left 18px
+				font-size .6em
+				display inline-block
+				text-align center
+				
+	.col4
+		width 100%
+		background-color #fff
+		height 228px
+		margin-bottom 11px
+		.imagen
+			img
+				border-bottom 5px solid morado
+				width 100%
+				margin 0 auto
+		.description
+			text-align center
+			width 70%
+			margin 18px auto
+			font-size .8em
+			a
+				color morado
+		.info
+			a
+				margin-left 10px
+				font-size .6em
+				position relative
+				top 8px
+				left 10px
+				
+				
+	.col5
+		margin-top 30px
+		width 100%
+		background-color #fff
+		height 295px
+		.imagen
+			img
+				border-bottom 5px solid morado
+		.description
+			text-align center
+			width 280px
+			margin 25px auto
+			font-size 1em
+			a
+				color morado
+		.infolarge
+			a
+				position relative
+				right 15px
+		.premod
+			margin-left 24px
+			font-size .8em
+			.precio
+				font-weight 700
+				span
+					color naranjo
+			.modalidad
+				position relative
+				bottom 10px
+				font-weight 700
+				span
+					font-weight 300
+	.col52
+		margin-top 30px
+		width 100%
+		background-color #fff
+		height 295px
+		.imagen
+			img
+				border-bottom 5px solid morado
+		.description
+			text-align center
+			width 100%
+			margin 25px auto
+			font-size 1em
+			a
+				color morado
+		.infolarge
+			a
+				margin-left 1px
+				position relative
+				top 43px
+				right 16px
+		.premod
+			margin-left 22px
+			position relative
+			top 44px
+			font-size .8em
+			.precio
+				font-weight 700
+				span
+					color naranjo
+			.modalidad
+				position relative
+				bottom 10px
+				font-weight 700
+				span
+					font-weight 300
+	.col2
+		margin-top 16px
+		width 100%
+		background-color #fff
+		height 207px
+	
+		.imagen
+			img
+				border-bottom 3px solid morado
+		.description
+			text-align center
+			width 92px
+			margin 20px auto
+			font-size .7em
+			a
+				color morado
+		.info
+			a
+				font-size .5em
+				margin-left 22px
+/*--------------------------------------------------------------------------------------------------- centros*/
+#centros
+	background-image url(assets/bg-02.png)
+	background-color gris
+	background-repeat no-repeat
+	background-position 50% 121px
+	
+	.wrapwhite
+		margin-top 30px
+		background-color #fff
+		height 330px
+		border-bottom 3px solid morado
+		margin-bottom 40px
+		.title
+			margin-left 18px
+			color morado
+			h3
+				font-size 1.5em
+		.view
+			text-align right
+			margin-right 31px
+			position relative
+			top 30px
+			a
+				color morado
+		.icons01
+			border-top 2px solid #efefef
+			margin 0 17px
+			img
+				margin-right 14px
+				margin-top 30px
+				width 44px
+		.icons02
+			margin 0 20px
+			img
+				margin-right 9px
+				margin-top 30px
+				width 49px
+/*--------------------------------------------------------------------------------------------------- categorias*/
+
+#categorias
+	background-color negro
+	border-bottom 3px solid morado
+	.titlecat
+		width 90%
+		color #fff
+		border-bottom 2px solid #fff
+		h3
+			font-size 1.5em	
+	.masters
+		color #fff
+		margin-left 13px
+	
+	h2
+		font-size .9em
+		img
+			position relative
+			bottom 3px
+	ul
+		width 100%
+		position relative
+		right 38px
+		li
+			list-style none
+			a
+				font-size .8em
+				color #fff
+				transition(.2s)
+				&:hover
+					color #fff
+/*--------------------------------------------------------------------------------------------------- footer*/
+
+footer
+	background-color gris
+	.sitios
+		width 259px
+		margin-left 17px
+		margin-top 20px
+		a
+			color #000
+			margin-right 9px
+			font-size .5em
+			img
+				position relative
+				bottom 2px
+	.submenu
+		margin-top 20px
+		width 100%
+		margin 0 auto
+		text-align center
+		p
+			margin-top 14px
+			font-size .85em
+			color grisfoo
+			a
+				color grisfoo
+				transition(.2s)
+				&:hover
+					color negro
