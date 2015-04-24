@@ -76,8 +76,8 @@ Version: 1.0
   }
   header {
     width: 100%;
-    -webkit-box-shadow: 0 1px 7px 1px rgba(0,0,0,0.5);
-    box-shadow: 0 1px 7px 1px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 0 1px 3px 1px rgba(0,0,0,0.5);
+    box-shadow: 0 1px 3px 1px rgba(0,0,0,0.5);
     z-index: 1;
     position: relative;
   }
@@ -164,14 +164,16 @@ Version: 1.0
     width: 100%;
     margin: 0 auto;
     background-position: 0 1.5px;
+    height: 290px;
   }
   #formacion {
     background-color: #e9e9e9;
   }
   #formacion .titleform {
     width: 100%;
-    margin: 0 auto;
-    padding: 18px 0;
+    margin: 30px auto 0 auto;
+    padding-bottom: 30px;
+    background-color: #e9e9e9;
   }
   #formacion .titleform h2 {
     font-weight: 700;
@@ -234,7 +236,7 @@ Version: 1.0
     margin-top: 30px;
     width: 100%;
     background-color: #fff;
-    height: 295px;
+    height: 100%;
   }
   #formacion .col5 .imagen img {
     border-bottom: 5px solid #583e97;
@@ -278,6 +280,8 @@ Version: 1.0
   }
   #formacion .col52 .imagen img {
     border-bottom: 5px solid #583e97;
+    width: 456px;
+    margin: 0 auto;
   }
   #formacion .col52 .description {
     text-align: center;
@@ -322,6 +326,8 @@ Version: 1.0
   }
   #formacion .col2 .imagen img {
     border-bottom: 3px solid #583e97;
+    width: 165px;
+    margin: 0 auto;
   }
   #formacion .col2 .description {
     text-align: center;
@@ -557,8 +563,8 @@ Version: 1.0
   }
   header {
     width: 100%;
-    -webkit-box-shadow: 0 1px 7px 1px rgba(0,0,0,0.5);
-    box-shadow: 0 1px 7px 1px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 0 1px 3px 1px rgba(0,0,0,0.5);
+    box-shadow: 0 1px 3px 1px rgba(0,0,0,0.5);
     z-index: 1;
     position: relative;
   }
@@ -950,6 +956,7 @@ Version: 1.0
     font-size: 1.2em;
   }
   body {
+    overflow-x: hidden;
     font-family: 'Raleway', sans-serif;
   }
   body :hover {
@@ -995,8 +1002,8 @@ Version: 1.0
   }
   header {
     width: 100%;
-    -webkit-box-shadow: 0 1px 7px 1px rgba(0,0,0,0.5);
-    box-shadow: 0 1px 7px 1px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 0 1px 3px 1px rgba(0,0,0,0.5);
+    box-shadow: 0 1px 3px 1px rgba(0,0,0,0.5);
     z-index: 1;
     position: relative;
   }
@@ -1429,8 +1436,8 @@ Version: 1.0
   }
   header {
     width: 100%;
-    -webkit-box-shadow: 0 1px 7px 1px rgba(0,0,0,0.5);
-    box-shadow: 0 1px 7px 1px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 0 1px 3px 1px rgba(0,0,0,0.5);
+    box-shadow: 0 1px 3px 1px rgba(0,0,0,0.5);
     z-index: 1;
     position: relative;
   }
