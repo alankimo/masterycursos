@@ -1,10 +1,21 @@
 @import 'vars.styl'
 /*--------------------------------------------------------------------------------------------------- Generales*/
+.typcn-key-outline
+.typcn-pencil
+.typcn-mail
+	color morado
+	font-size 2em
+	
+.typcn-info-large
+	font-size 1.2em
+
 body
 	font-family raleway
 	:hover
 		text-decoration none
 .info
+	width 93px
+	margin 0 auto
 	a
 		padding 4px 22px
 		background-color amarillo
@@ -33,7 +44,7 @@ body
 /*--------------------------------------------------------------------------------------------------- Header*/
 header
 	width 100%
-	box-shadow(0 3px 50px 2px rgba(0,0,0,.8))
+	box-shadow(0 1px 7px 1px rgba(0,0,0,.5))
 	z-index 1
 	position relative
 	.logo
@@ -58,7 +69,7 @@ header
 						color naranja
 		
 	.iconos
-		width 69%
+		width 74%
 		margin 0 auto
 		padding-bottom 10px
 		a
@@ -121,50 +132,54 @@ header
 	.col3
 		width 100%
 		background-color #fff
-		padding-bottom 26px
+		height 228px
 		.imagen
 			img
 				border-bottom 5px solid morado
 				width 100%
 				margin 0 auto
+				height 73px
 		.description
 			text-align center
-			width 80%
-			margin 25px auto
+			width 67%
+			margin 20px auto 10px auto
 			font-size .8em
+			height 50px
 			a
 				color morado
 		.info
 			a
-				margin-left 18px
+				
 				font-size .6em
-				display inline-block
-				text-align center
+				
 				
 	.col4
 		width 100%
 		background-color #fff
 		height 228px
-		margin-bottom 11px
+		
 		.imagen
 			img
 				border-bottom 5px solid morado
 				width 100%
 				margin 0 auto
+				height 73px
 		.description
 			text-align center
-			width 70%
-			margin 18px auto
+			width 92%
+			margin-top 20px
+			margin 20px auto 0 auto
 			font-size .8em
+			height 50px
 			a
 				color morado
 		.info
 			a
-				margin-left 10px
+				
 				font-size .6em
 				position relative
 				top 8px
-				left 10px
+				
 				
 				
 	.col5
@@ -203,7 +218,7 @@ header
 		margin-top 30px
 		width 100%
 		background-color #fff
-		height 295px
+		height 100%
 		.imagen
 			img
 				border-bottom 5px solid morado
@@ -218,12 +233,12 @@ header
 			a
 				margin-left 1px
 				position relative
-				top 43px
+				top 2px
 				right 16px
 		.premod
 			margin-left 22px
 			position relative
-			top 44px
+			top 6px
 			font-size .8em
 			.precio
 				font-weight 700
@@ -254,7 +269,7 @@ header
 		.info
 			a
 				font-size .5em
-				margin-left 22px
+				
 /*--------------------------------------------------------------------------------------------------- centros*/
 #centros
 	background-image url(assets/bg-02.png)
@@ -329,17 +344,15 @@ header
 
 footer
 	background-color gris
-	.sitios
-		width 259px
-		margin-left 17px
+	.mobsites
 		margin-top 20px
-		a
-			color #000
-			margin-right 9px
-			font-size .5em
-			img
-				position relative
-				bottom 2px
+		ul
+			padding-left 16px
+			li
+				list-style none
+				padding-left 20px
+				a
+					color #000
 	.submenu
 		margin-top 20px
 		width 100%
@@ -354,3 +367,27 @@ footer
 				transition(.2s)
 				&:hover
 					color negro
+.imafo01
+	background-image url(assets/fo01.png)
+	background-repeat no-repeat
+	background-position 0 2px
+.imafo02
+	background-image url(assets/fo02.png)
+	background-repeat no-repeat
+	background-position 0 2px
+.imafo03
+	background-image url(assets/fo03.png)
+	background-repeat no-repeat
+	background-position 0 2px
+.imafo04
+	background-image url(assets/fo04.png)
+	background-repeat no-repeat
+	background-position 0 2px
+.imafo05
+	background-image url(assets/fo05.png)
+	background-repeat no-repeat
+	background-position 0 2px
+.imafo06
+	background-image url(assets/fo06.png)
+	background-repeat no-repeat
+	background-position 0 2px

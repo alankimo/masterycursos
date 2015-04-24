@@ -6,14 +6,35 @@ Author: Dymenxion
 Version: 1.0
 */
 @import 'bootstrap/css/bootstrap.min.css';
+@import 'typicons.min.css';
 @import url 'http://fonts.googleapis.com/css?family=Raleway:500,600,700)';
 /* Mobile Firts */
 @media screen and (max-width: 767px) {
+  @font-face {
+    font-family: 'typicons';
+    src: url("font/typicons.eot");
+    src: url("font/typicons.eot?#iefix") format('embedded-opentype'), url("font/typicons.woff") format('woff'), url("font/typicons.ttf") format('truetype'), url("font/typicons.svg#typicons") format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  .typcn-key-outline,
+  .typcn-pencil,
+  .typcn-mail {
+    color: #583e97;
+    font-size: 2em;
+  }
+  .typcn-info-large {
+    font-size: 1.2em;
+  }
   body {
     font-family: 'Raleway', sans-serif;
   }
   body :hover {
     text-decoration: none;
+  }
+  .info {
+    width: 93px;
+    margin: 0 auto;
   }
   .info a {
     padding: 4px 22px;
@@ -55,8 +76,8 @@ Version: 1.0
   }
   header {
     width: 100%;
-    -webkit-box-shadow: 0 3px 50px 2px rgba(0,0,0,0.8);
-    box-shadow: 0 3px 50px 2px rgba(0,0,0,0.8);
+    -webkit-box-shadow: 0 1px 7px 1px rgba(0,0,0,0.5);
+    box-shadow: 0 1px 7px 1px rgba(0,0,0,0.5);
     z-index: 1;
     position: relative;
   }
@@ -89,7 +110,7 @@ Version: 1.0
     color: #da8a00;
   }
   header .iconos {
-    width: 69%;
+    width: 74%;
     margin: 0 auto;
     padding-bottom: 10px;
   }
@@ -161,54 +182,53 @@ Version: 1.0
   #formacion .col3 {
     width: 100%;
     background-color: #fff;
-    padding-bottom: 26px;
+    height: 228px;
   }
   #formacion .col3 .imagen img {
     border-bottom: 5px solid #583e97;
     width: 100%;
     margin: 0 auto;
+    height: 73px;
   }
   #formacion .col3 .description {
     text-align: center;
-    width: 80%;
-    margin: 25px auto;
+    width: 67%;
+    margin: 20px auto 10px auto;
     font-size: 0.8em;
+    height: 50px;
   }
   #formacion .col3 .description a {
     color: #583e97;
   }
   #formacion .col3 .info a {
-    margin-left: 18px;
     font-size: 0.6em;
-    display: inline-block;
-    text-align: center;
   }
   #formacion .col4 {
     width: 100%;
     background-color: #fff;
     height: 228px;
-    margin-bottom: 11px;
   }
   #formacion .col4 .imagen img {
     border-bottom: 5px solid #583e97;
     width: 100%;
     margin: 0 auto;
+    height: 73px;
   }
   #formacion .col4 .description {
     text-align: center;
-    width: 70%;
-    margin: 18px auto;
+    width: 92%;
+    margin-top: 20px;
+    margin: 20px auto 0 auto;
     font-size: 0.8em;
+    height: 50px;
   }
   #formacion .col4 .description a {
     color: #583e97;
   }
   #formacion .col4 .info a {
-    margin-left: 10px;
     font-size: 0.6em;
     position: relative;
     top: 8px;
-    left: 10px;
   }
   #formacion .col5 {
     margin-top: 30px;
@@ -254,7 +274,7 @@ Version: 1.0
     margin-top: 30px;
     width: 100%;
     background-color: #fff;
-    height: 295px;
+    height: 100%;
   }
   #formacion .col52 .imagen img {
     border-bottom: 5px solid #583e97;
@@ -271,13 +291,13 @@ Version: 1.0
   #formacion .col52 .infolarge a {
     margin-left: 1px;
     position: relative;
-    top: 43px;
+    top: 2px;
     right: 16px;
   }
   #formacion .col52 .premod {
     margin-left: 22px;
     position: relative;
-    top: 44px;
+    top: 6px;
     font-size: 0.8em;
   }
   #formacion .col52 .premod .precio {
@@ -314,7 +334,6 @@ Version: 1.0
   }
   #formacion .col2 .info a {
     font-size: 0.5em;
-    margin-left: 22px;
   }
   #centros {
     background-image: url("assets/bg-02.png");
@@ -408,19 +427,18 @@ Version: 1.0
   footer {
     background-color: #e9e9e9;
   }
-  footer .sitios {
-    width: 259px;
-    margin-left: 17px;
+  footer .mobsites {
     margin-top: 20px;
   }
-  footer .sitios a {
-    color: #000;
-    margin-right: 9px;
-    font-size: 0.5em;
+  footer .mobsites ul {
+    padding-left: 16px;
   }
-  footer .sitios a img {
-    position: relative;
-    bottom: 2px;
+  footer .mobsites ul li {
+    list-style: none;
+    padding-left: 20px;
+  }
+  footer .mobsites ul li a {
+    color: #000;
   }
   footer .submenu {
     margin-top: 20px;
@@ -444,9 +462,55 @@ Version: 1.0
   footer .submenu p a:hover {
     color: #393939;
   }
+  .imafo01 {
+    background-image: url("assets/fo01.png");
+    background-repeat: no-repeat;
+    background-position: 0 2px;
+  }
+  .imafo02 {
+    background-image: url("assets/fo02.png");
+    background-repeat: no-repeat;
+    background-position: 0 2px;
+  }
+  .imafo03 {
+    background-image: url("assets/fo03.png");
+    background-repeat: no-repeat;
+    background-position: 0 2px;
+  }
+  .imafo04 {
+    background-image: url("assets/fo04.png");
+    background-repeat: no-repeat;
+    background-position: 0 2px;
+  }
+  .imafo05 {
+    background-image: url("assets/fo05.png");
+    background-repeat: no-repeat;
+    background-position: 0 2px;
+  }
+  .imafo06 {
+    background-image: url("assets/fo06.png");
+    background-repeat: no-repeat;
+    background-position: 0 2px;
+  }
 }
 /* Tablets: Portrait */
 @media screen and (min-width: 768px) and (max-width: 991px) {
+  @font-face {
+    font-family: 'typicons';
+    src: url("font/typicons.eot");
+    src: url("font/typicons.eot?#iefix") format('embedded-opentype'), url("font/typicons.woff") format('woff'), url("font/typicons.ttf") format('truetype'), url("font/typicons.svg#typicons") format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  .typcn-key-outline,
+  .typcn-pencil,
+  .typcn-mail {
+    color: #583e97;
+    font-size: 1em;
+  }
+  .typcn-info-large {
+    font-size: 1.2em;
+  }
   body {
     font-family: 'Raleway', sans-serif;
   }
@@ -493,8 +557,8 @@ Version: 1.0
   }
   header {
     width: 100%;
-    -webkit-box-shadow: 0 3px 50px 2px rgba(0,0,0,0.8);
-    box-shadow: 0 3px 50px 2px rgba(0,0,0,0.8);
+    -webkit-box-shadow: 0 1px 7px 1px rgba(0,0,0,0.5);
+    box-shadow: 0 1px 7px 1px rgba(0,0,0,0.5);
     z-index: 1;
     position: relative;
   }
@@ -869,6 +933,22 @@ Version: 1.0
 }
 /* Tablets: Landscape */
 @media screen and (min-width: 992px) and (max-width: 1199px) {
+  @font-face {
+    font-family: 'typicons';
+    src: url("font/typicons.eot");
+    src: url("font/typicons.eot?#iefix") format('embedded-opentype'), url("font/typicons.woff") format('woff'), url("font/typicons.ttf") format('truetype'), url("font/typicons.svg#typicons") format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  .typcn-key-outline,
+  .typcn-pencil,
+  .typcn-mail {
+    color: #583e97;
+    font-size: 1.2em;
+  }
+  .typcn-info-large {
+    font-size: 1.2em;
+  }
   body {
     font-family: 'Raleway', sans-serif;
   }
@@ -915,8 +995,8 @@ Version: 1.0
   }
   header {
     width: 100%;
-    -webkit-box-shadow: 0 3px 50px 2px rgba(0,0,0,0.8);
-    box-shadow: 0 3px 50px 2px rgba(0,0,0,0.8);
+    -webkit-box-shadow: 0 1px 7px 1px rgba(0,0,0,0.5);
+    box-shadow: 0 1px 7px 1px rgba(0,0,0,0.5);
     z-index: 1;
     position: relative;
   }
@@ -1287,6 +1367,22 @@ Version: 1.0
 }
 /* Desktops */
 @media screen and (min-width: 1200px) {
+  @font-face {
+    font-family: 'typicons';
+    src: url("font/typicons.eot");
+    src: url("font/typicons.eot?#iefix") format('embedded-opentype'), url("font/typicons.woff") format('woff'), url("font/typicons.ttf") format('truetype'), url("font/typicons.svg#typicons") format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  .typcn-key-outline,
+  .typcn-pencil,
+  .typcn-mail {
+    color: #583e97;
+    font-size: 1.6em;
+  }
+  .typcn-info-large {
+    font-size: 1.2em;
+  }
   body {
     font-family: 'Raleway', sans-serif;
   }
@@ -1333,8 +1429,8 @@ Version: 1.0
   }
   header {
     width: 100%;
-    -webkit-box-shadow: 0 3px 50px 2px rgba(0,0,0,0.8);
-    box-shadow: 0 3px 50px 2px rgba(0,0,0,0.8);
+    -webkit-box-shadow: 0 1px 7px 1px rgba(0,0,0,0.5);
+    box-shadow: 0 1px 7px 1px rgba(0,0,0,0.5);
     z-index: 1;
     position: relative;
   }
@@ -1361,10 +1457,21 @@ Version: 1.0
   }
   header .iconos {
     text-align: right;
-    margin-top: 32px;
+    margin-top: 24px;
+    width: 92px;
   }
   header .iconos a {
     margin-left: 5px;
+  }
+  header .iconos a span {
+    -webkit-transition: 0.2s ease-in;
+    -moz-transition: 0.2s ease-in;
+    -o-transition: 0.2s ease-in;
+    -ms-transition: 0.2s ease-in;
+    transition: 0.2s ease-in;
+  }
+  header .iconos a span:hover {
+    color: #da8a00;
   }
   .bull01 {
     background-image: url("assets/b-01.png");
@@ -1429,7 +1536,7 @@ Version: 1.0
   #formacion .col3 {
     width: 260px;
     background-color: #fff;
-    padding-bottom: 26px;
+    height: 352px;
   }
   #formacion .col3 .imagen img {
     border-bottom: 5px solid #583e97;

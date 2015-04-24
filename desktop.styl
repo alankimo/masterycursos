@@ -1,5 +1,16 @@
 @import 'vars.styl'
 /*--------------------------------------------------------------------------------------------------- Generales*/
+/* typicons */
+
+.typcn-key-outline
+.typcn-pencil
+.typcn-mail
+	color morado
+	font-size 1.6em
+	
+.typcn-info-large
+	font-size 1.2em
+
 body
 	font-family raleway
 	:hover
@@ -33,7 +44,7 @@ body
 /*--------------------------------------------------------------------------------------------------- Header*/
 header
 	width 100%
-	box-shadow(0 3px 50px 2px rgba(0,0,0,.8))
+	box-shadow(0 1px 7px 1px rgba(0,0,0,.5))
 	z-index 1
 	position relative
 	nav
@@ -55,9 +66,14 @@ header
 				
 	.iconos
 		text-align right
-		margin-top 32px
+		margin-top 24px
+		width 92px
 		a
 			margin-left 5px
+			span
+				transition(.2s)
+				&:hover
+					color naranja
 			
 			
 .bull01
@@ -114,7 +130,7 @@ header
 	.col3
 		width 260px
 		background-color #fff
-		padding-bottom 26px
+		height 352px
 		.imagen
 			img
 				border-bottom 5px solid morado
