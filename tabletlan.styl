@@ -1,6 +1,19 @@
 @import 'vars.styl'
 /*--------------------------------------------------------------------------------------------------- Generales*/
+.typcn-key-outline
+.typcn-pencil
+.typcn-mail
+.typcn-social-facebook-circular
+.typcn-social-twitter-circular
+	color morado
+	font-size 1.2em
+	
+.typcn-info-large
+	font-size 1.2em
+
+
 body
+	overflow-x hidden
 	font-family raleway
 	:hover
 		text-decoration none
@@ -32,6 +45,10 @@ body
 	
 /*--------------------------------------------------------------------------------------------------- Header*/
 header
+	width 100%
+	box-shadow(0 1px 3px 1px rgba(0,0,0,.5))
+	z-index 1
+	position relative
 	.logo
 		img
 			width 166px
@@ -330,4 +347,143 @@ footer
 				transition(.2s)
 				&:hover
 					color negro
+/*--------------------------------------------------------------------------------------------------- single page*/
+/*--------------------------------------------------------------------------------------------------- Categorias y Sub*/
+.singlebg
+	width 100%
+	height 119px	
+	background-color morado
+	background-image url(assets/bg-single.png)
+	background-repeat no-repeat
+	background-position 50% 0
+	.catysub
+		width 595px
+		margin 0 auto
+		position relative
+		top 48px
+		span
+			color #fff
+			padding-right 12px
+		a
+			background-color rgba(253, 253, 253, 0.65)
+			color morado
+			padding 4px 22px
+			border-radius(4px)
+			border-bottom 2px solid moradoheavy
+			transition(.2s)
+			&:hover
+				background-color moradoheavy
+				color #fff
+	
+.selecciona
+	background-color rgba(253, 253, 253, 0.65)
+	padding 40px
+	height 25px
+	width 168px
+	color morado
+	margin-right 4px
+	border-radius(4px)
+/*-----------------------------------------------------------------------------------contenido pagina*/
+#singlecont
+	background-color gris
+	.breadcrum
+		margin-top 32px
+		a
+			color #000
+			transition(.2s)
+			&:hover
+				color morado
+	.headsingle
+		background-color #fff
+		padding 0 22px
+		margin-top 18px
+		border-bottom 4px solid morado
+		padding-bottom 14px
+		margin-bottom 20px
+		.title
+			color morado
+		.sociallogos
+			text-align right
+			position relative
+			top 22px
+			font-size 1.4em
+			span
+				transition(.2s)
+				&:hover
+					color naranja
+		.infotext
+			border-top 1px solid #000
+			padding-top 20px	
+			span
+				padding 0 30px
+				font-size .79em
+.cursodescription
+	.title
+		background-color #fff
+		padding 1px 17px
+		
+		i
+			background-color morado
+			border-radius(6px)
+			color #fff
+			font-size 1.4em
+			padding 1px 2px
+		h3
+			display inline-block
+			background-color #fff
+			text-transform uppercase
+			font-size 1.2em
+			color morado
+			margin-left 12px
+			font-weight 600
+	.description
+		background-color #fff
+		padding 20px 93px 20px 53px
+.wrap_single_white
+	height 121px
+	background-color #fff
+
+.informes
+	border-top 1px solid #000
+	width 408px
+	margin 0 auto
+	background-color #fff
+	padding-top 21px
+	.text
+		font-size .8em
+	.info
+		position relative
+		top 14px
+		font-size .6em
+		
+			
+.wraprelacionados
+	background-color #fff
+	padding-top 1px
+	width 100%
+	height 475px
+	.otroscursos
+		width 170px
+		margin 0 auto
+		.title
+			color morado
+			text-transform uppercase
+			padding 0
+			margin-bottom 15px
+			margin-top 18px
+			h4
+				font-size .95em
+		.enlacesotros
+			ul
+				padding 0
+				li
+					list-style none
+					font-size .9em
+					margin-bottom 10px
+					a
+						color #000
+						transition(.2s)
+						&:hover
+							color moradoheavy
+
 		
